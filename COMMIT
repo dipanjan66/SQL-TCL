@@ -1,0 +1,16 @@
+--commit - Used for permanent Save Table
+
+-- student - is a Table
+
+-- TCL command works with DML(insert, update, delete)
+
+--Example:-----------------
+
+
+begin transaction 
+go
+insert into student 
+values
+(107, 'virat', 9875462154)
+commit transaction
+
