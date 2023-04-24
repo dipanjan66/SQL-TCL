@@ -1,0 +1,14 @@
+--Rollback - Used to go in Previous step(To Remove some steps - Like UNDO) - To Jump Steps
+
+-- student - is a Table
+
+-- TCL command works with DML(insert, update, delete)
+
+--Go back to - save1 which is in Savepoint
+
+--Example:----------------
+
+
+begin transaction 
+go
+rollback transaction save1
