@@ -1,0 +1,28 @@
+--Savepoint - Used for Temporary Save Table
+
+-- student - is a Table
+
+-- TCL command works with DML(insert, update, delete)
+
+--Example:----------------
+
+-- save1 - is a Savepoint name
+
+begin transaction 
+go
+insert into student 
+values
+(108, 'Ramesh', 7845896254)
+save transaction save1
+
+
+-- save2:----------------
+
+
+begin transaction 
+go
+insert into student 
+values
+(109, 'David', 564248578)
+save transaction save2
+
